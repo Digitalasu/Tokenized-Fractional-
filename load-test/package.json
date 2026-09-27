@@ -10,7 +10,7 @@
     "test:websocket": "artillery run artillery/websocket.yml --output reports/websocket.json && artillery report reports/websocket.json --output reports/websocket.html",
     "test:full": "artillery run artillery/full-suite.yml --output reports/full-suite.json && artillery report reports/full-suite.json --output reports/full-suite.html",
     "baseline": "node helpers/run-baseline.js",
-    "start:mock": "node mock-server.js"
+    "start:mock": "node init && node mock-server.js"
   },
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
