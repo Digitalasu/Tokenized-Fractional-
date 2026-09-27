@@ -47,3 +47,6 @@ PR_DESCRIPTION_ISSUE_*.md
 
 # ELK stack data directories
 /elk/data/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
